@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* -- Navbar -- */
+.ajuste-navbar{
+    background-color: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    height: 80px;
+}
+
+.img-logo{
+    height: 70px;
+    width: 140px;
+}
+
+.barra-navegacao{
+    justify-content: right;
+}
+
+.link-edit li{
+    font-weight: 700;
+    padding-left: 20px;
+    color: #0b2b5d;
+}
+
+.link-edit li:hover{
+    color: #0480ED;
+    text-decoration: underline #0480ED;
+}
+
+.link-edit li a{
+    color: inherit;
+}
+
+/* -- Banner -- */
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imagens/fundoteste2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-banner{
+    text-align: center;
+    color: #FFF;
+    font-weight: 800;
+}
+
+.banner-texto1 {
+    font-size: 40px;
+}
+.banner-texto2 {
+    font-size: 42px;
+}
+
+.botao-edit {
+    margin-top: 20px;
+    color: white;
+    background-color: #0480ED;
+    border-radius: 25px;
+    padding: 10px 60px 10px 60px;
+    border: 1.5px solid white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.botao-edit:hover{
+    color:#0480ED;
+    background-color: white;
+    border: 1.5px solid #0480ED;
+}
+
+/* Section Servicos */
+.servicos {
+    text-align: center;   
+    padding-bottom: 20px; 
+}
+
+.palavras-servico {
+    font-size: 20px;
+    color: #0480ED;
+    font-weight: 600;
+}
+
+.palavras-servico a {
+    color: inherit;
+}
+
+.palavras-servico a:hover {
+    background-color: white;
+    text-decoration: underline #0b2b5d;
+}
+
+.resumo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lugar-certo{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.palavras-chaves{
+    /* margin-top: 80px; */
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+
+.palavras-chaves h3{
+    color: #0480ED;
+}
+
+.cards{
+    border: 1px solid black;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.cards p{
+    font-size: 16px;
+    padding: 5px 10px 0 10px;
+}
+
+.footer{
+    text-align: center;
+    border-top: 1px solid #0b2b5d;
+}
+
+/* Sobre */
+.sobre{
+    margin-top: 100px;
+}
