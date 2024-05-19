@@ -151,5 +151,66 @@ html, body{
 
 /* Sobre */
 .sobre{
-    margin-top: 100px;
+    margin-top: 120px;
+}
+
+.sobre p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sobre h2{
+    color: #0b2b5d;
+}
+
+.sobre a{
+    font-weight: 500;
+}
+
+.txt-tec{
+    color: #0480ED;
+}
+
+.valores{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #f4f4f4;
+    padding: 3%;
+}
+
+.card-valores{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 25%;
+    height: 500px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #FFF;
+}
+
+.card-valores img{
+    width: 50%;
+    height: 30%;
+    min-width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-valores .desc{
+    margin-top: 20px;
+}
+
+.desc h3{
+    color: #0b2b5d;
+}
+
+.list-valores{
+    list-style-type: disc !important;
 }
