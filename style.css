@@ -215,6 +215,7 @@ html, body{
 .list-valores {
     margin-top: 20px;
 }
+
 .list-valores li{
     list-style-type: disc;
     text-align: justify;
