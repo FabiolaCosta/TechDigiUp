@@ -217,11 +217,8 @@ html, body{
 }
 
 .list-valores li{
-    list-style-type: disc;
-    text-align: justify;
+    text-align: center;
     padding: 0 15px;
-    list-style-position: inside;
-
 }
 
 @media (max-width: 575px) {
@@ -232,4 +229,11 @@ html, body{
     .card-valores{
         width: 60%;
     }
+}
+
+
+/* Contato */
+
+.distancia{
+    margin-top: 300px;
 }

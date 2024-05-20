@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venda de Websites HTML/CSS/PHP">
+    <meta name="keywords" content="TechDigiUp, Websites, HTML5, CSS3, PHP, SQL, MySQL, Venda, Tecnologia, TI, Informática">    
+    <link rel="icon" href="imagens/logo.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">    
+    <title>Tech DigiUP</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm ajuste-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Brand/logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/logo.png" alt="logo" class="img-logo">
+                </a>
+            </div>
+        
+            <!-- Links -->
+            <div class="navbar-collapse barra-navegacao">
+                <ul class="navbar-nav navbar-right link-edit">        
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatos.html">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>        
+        </div>
+    </nav>
+
+    <div class="distancia">
+        <h2>Nos envie uma mensagem:</h2>
+        <!--  é utilizado um script chamado formsubmit como ponte, assim como um link pra um webmail de hospedagem  -->
+        <form action="https://formsubmit.co/5271bb99646f6bd523ed2b14470726c4" method="POST">
+            <label for="nome"> Seu nome:
+                <input type="text" name="nome" required> </label> <br>
+            <label for="mensagem"> Mensagem:
+                <input type="text" name="mensagem" required> </label> <br>
+            <label for="email"> Email:
+                <input type="email" name="email" required> 
+            </label>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="http://localhost/TechDigiUp/index.php">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">        
+        <img src="imagens/logo.png" alt="logo" width="130px">
+        <p style="font-size: 16px; margin-bottom: 2px;">© 2024 - Todos os direitos reservados - Tech DigiUP</p>
+        <p style="font-size: 13px; margin-bottom: 2px;">CNPJ N°: 12.212.524/0001-76 / Rua Faria Lima, 3259, São Paulo/SP</p>
+        <p style="font-size: 12px;">Este site tem como propósito o estudo, portanto, não é de desejo nosso ferir marcas e/ou empresas.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
