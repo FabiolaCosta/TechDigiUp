@@ -221,7 +221,7 @@ html, body{
     padding: 0 15px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 700px) {
     .valores{
         flex-direction: column;
     }
