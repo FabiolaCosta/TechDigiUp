@@ -22,6 +22,7 @@ html, body{
 
 .barra-navegacao{
     justify-content: right;
+    background-color: #FFF;
 }
 
 .link-edit li{
@@ -30,13 +31,14 @@ html, body{
     color: #0b2b5d;
 }
 
-.link-edit li:hover{
-    color: #0480ED;
-    text-decoration: underline #0480ED;
+.link-edit li a:hover{
+    color: #0480ED !important;
+    text-decoration: underline #0480ED !important;
 }
 
 .link-edit li a{
     color: inherit;
+    color: #0b2b5d !important;
 }
 
 /* -- Banner -- */
@@ -228,6 +230,10 @@ html, body{
 
     .card-valores{
         width: 60%;
+    }
+
+    .navbar-toggler{
+        display: block;
     }
 }
 

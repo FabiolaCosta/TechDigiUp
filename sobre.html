@@ -13,7 +13,7 @@
     <title>Tech DigiUP</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-sm ajuste-navbar">
+    <nav class="navbar navbar-expand-sm navbar-light ajuste-navbar fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <!-- Brand/logo -->
@@ -21,10 +21,14 @@
                     <img src="imagens/logo.png" alt="logo" class="img-logo">
                 </a>
             </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         
             <!-- Links -->
-            <div class="navbar-collapse barra-navegacao">
-                <ul class="navbar-nav navbar-right link-edit">        
+            <div class="collapse navbar-collapse barra-navegacao" id="navbarNav">
+                <ul class="navbar-nav ml-auto navbar-right link-edit">        
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
