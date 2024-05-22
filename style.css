@@ -73,18 +73,24 @@ html, body{
 
 .botao-edit {
     margin-top: 20px;
-    color: white;
+    color: #FFF;
     background-color: #0480ED;
     border-radius: 25px;
     padding: 10px 60px 10px 60px;
-    border: 1.5px solid white;
+    border: 1.5px solid #FFF;
     font-weight: 700;
     font-size: 20px;
+    text-decoration: none;
 }
 
-.botao-edit:hover{
+.botao-edit a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.botao-edit:hover{  
     color:#0480ED;
-    background-color: white;
+    background-color: #FFF;
     border: 1.5px solid #0480ED;
 }
 
