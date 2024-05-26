@@ -249,8 +249,60 @@ html, body{
 }
 
 
-/* Contato */
+/* Contatos */
 
-.distancia{
-    margin-top: 300px;
+.distancia {
+
+    margin-top: 160px;
+    text-align: center;
+}
+
+.fale {
+    font-size: 32px;
+    color:#0480ED;
+}
+
+.descricaofale {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contatonomes {
+    font-size: 16px;
+    font-weight: 700;
+    color:#0b2b5d;
+}
+
+.botaoenviar {
+    margin-top: 10px;
+    color: white;
+    background-color: #0480ED;
+    border-radius: 25px;
+    padding: 5px 20px 5px 20px;
+    border: 1.5px solid white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.botaoenviar:hover {
+    color:#0480ED;
+    background-color: white;
+    border: 1.5px solid #0480ED;
+}
+
+.botaoapagar {
+    margin-top: 10px;
+    color: red;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 20px 5px 20px;
+    border: 1.5px solid red;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.botaoapagar:hover {
+    color:white;
+    background-color: red;
+    border: 1.5px solid white;
 }

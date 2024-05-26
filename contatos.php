@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">    
     <title>Tech DigiUP</title>
 </head>
-<body>
+<body> 
     <nav class="navbar navbar-expand-sm navbar-light ajuste-navbar fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -36,7 +36,7 @@
                         <a class="nav-link" href="servicos.html">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contatos.html">Contatos</a>
+                        <a class="nav-link" href="contatos.php">Contatos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="sobre.html">Sobre</a>
@@ -45,24 +45,44 @@
             </div>        
         </div>
     </nav>
+
     <div class="distancia">
-        <h2>Nos envie uma mensagem:</h2>
+        <h2 class="fale">Fale conosco!</h2>
+        <p class="descricaofale">Alguma dúvida? Deseja fazer um orçamento? Algum feedback? Nos mande abaixo:</p>
         <!--  é utilizado um script chamado formsubmit como ponte, assim como um link pra um webmail de hospedagem  -->
         <form action="https://formsubmit.co/5271bb99646f6bd523ed2b14470726c4" method="POST">
-            <label for="nome"> Seu nome:
-                <input type="text" name="nome" required> </label> <br>
-            <label for="mensagem"> Mensagem:
-                <input type="text" name="mensagem" required> </label> <br>
-            <label for="email"> Email:
-                <input type="email" name="email" required> 
-            </label>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_next" value="http://localhost/TechDigiUp/index.php">
-            <button type="submit">Enviar</button>
+            <div class="contatonomes">
+                <label for="nome"> Nome:
+                <input type="text" name="nome" size="60" required> </label> <br>
+   
+                <label for="email"> Email:
+                    <input type="email" name="email" size="60" required> 
+                </label> <br>
+                <label for="numero"> Número de celular:
+                    <input type="tel" name="numero"  placeholder="11913457159" pattern="[0-9]{2}[0-9]{9}" required> 
+                </label> <br>
+                <label for="assunto"> Assunto:
+                    <select name="assunto" id="assunto">
+                        <option value="Orçamento">Orçamento</option>
+                        <option value="Duvida">Dúvida</option>
+                        <option value="Feedback">Feedback</option>
+                    </select>
+                </label> <br>
+                <label for="mensagem"> Mensagem: <br>
+                    <textarea name="mensagem" rows="4" cols="50" style="resize:none;" required></textarea> 
+                </label> <br>
+                <br>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="http://localhost/TechDigiUp/index.php">
+                <button type="submit" class="botaoenviar">Enviar</button>
+                 <button type="reset" class="botaoapagar">Apagar</button>
+            </div>
+            <br>
+            <br>
+     
         </form>
     </div>
-
     <footer class="footer">        
         <img src="imagens/logo.png" alt="logo" width="130px">
         <p style="font-size: 16px; margin-bottom: 2px;">© 2024 - Todos os direitos reservados - Tech DigiUP</p>
